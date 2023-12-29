@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.welcome{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px; 
+}
+
+.welcome header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font: bold;
+    color: white;
+    text-align: left;
+    background-color: #002765;
+    height: 100px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center; 
+    line-height: 90px;
+}
+
+.bod{
+    background-color: black; 
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    top: 2%;
+    right: 0%;
+}
+
+li {
+    float: right; 
+    margin-right: 20px;
+}
+
+a {
+    display: block;
+    color: black; /* Text color of the menu items */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white; 
+    border-radius: 30%;
+}
+
+a:hover {
+    background-color: #555; 
+}
