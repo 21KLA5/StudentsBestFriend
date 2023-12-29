@@ -14,15 +14,16 @@
 .welcome header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
-    font: bold;
+    font-weight: bold;
     color: white;
-    text-align: left;
     background-color: #002765;
     height: 100px;
     width: 400px;
     border-radius: 50%;
     text-align: center; 
     line-height: 90px;
+
+    
 }
 
 .bod{
@@ -67,21 +68,30 @@ h1 {
     color: white;
     margin-top: 150px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    text-align: center;
 }
 
 p {
     font-size: 1.2em;
     color: white;
-    line-height: 1.6;
-    margin-left: 100px;
+    line-height: 1.6;   
+    text-align: center;
 }
 
-img{
+.naru{
     position: absolute;
     border-radius: 30%;
     width: 300px;
     height: 450px;
     top: 150px;
-    right: 200px;
+    right: 50px;
+}
+
+.stud{
+    position: absolute;
+    border-radius: 30%;
+    width: 300px;
+    height: 450px;
+    top: 150px;
+    left: 50px;
 }

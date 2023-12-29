@@ -98,3 +98,47 @@ ul li span:hover{
     background: #edeef0;
 }
 
+.menu {
+    position: fixed;
+    background-color: black;
+    top: -0.5%;
+    right: 0%;
+}
+
+
+.menu li {
+    float: right; 
+    margin-right: 20px;
+}
+
+.menu li a {
+    display: block;
+    color: black; /* Text color of the menu items */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white; 
+    border-radius: 30%;
+}
+
+.menu li a:hover {
+    background-color: #555; 
+}
+
+.naru{
+    position: absolute;
+    border-radius: 30%;
+    width: 400px;
+    height: 450px;
+    top: 150px;
+    right: 50px;
+}
+
+.study{
+    position: absolute;
+    border-radius: 30%;
+    width: 400px;
+    height: 450px;
+    top: 150px;
+    left: 50px;
+}
